@@ -1,15 +1,15 @@
 //p14C Variables
 const environmentID = '5d354632-b644-4d3e-a32e-af055f215ef8'; // env ID from p1 console
-const baseUrl = 'https://morgdemo.ping-eng.com/sharep1ui'; //Where this app is hosted --> No trailing slash needed
+const baseUrl = 'https://morgdemo.ping-eng.com/gratify_p1demo'; //Where this app is hosted --> No trailing slash needed
 
-const workerClientID = '7e80217e-4283-4bf1-830f-ea6bc2fdf4ec'; //used to create/manage users
+const workerClientID = 'da2a8bff-1a18-4351-8b7c-54719bf1a300'; //used to create/manage users
 //const workerClientSecret = 'UYPFyy6jOIL8HPKTqDgtmz.uqTNyrhP7MY63kMUgqq_G3~VzIuV.qU2sREl86TiO';
 
-const appClientID = '153f06e7-b750-447c-8626-cd90d992bcc2'; //used for enduser logon experience
+const appClientID = '77ef535c-c92d-4c6c-a5ef-f56763ad79b3'; //used for enduser logon experience
 //const appClientSecret ='O6KAnh~0cYTbP5QPeib~XmK8979QlDHl4amUEiWsB~5k1oRrzCUGJf4G79pzyCUi'; //used for out of band transaction approvals
 
 //const agentClientID ='fec0bfde-63b0-4256-bff7-46105dbd2497'; //user for agent/admin logon experience
-const agentClientID ='7e80217e-4283-4bf1-830f-ea6bc2fdf4ec'; //user for agent/admin logon experience
+//const agentClientID ='7e80217e-4283-4bf1-830f-ea6bc2fdf4ec'; //user for agent/admin logon experience
 
 //----------------------------------------------------------------------------------------------------//
 
@@ -20,7 +20,7 @@ const responseType = 'token id_token'; // tokens to recieve
 const landingUrl = baseUrl + '/index.html'; // url to send the person once authentication is complete
 const logoutUrl = baseUrl + '/logout/'; // whitelisted url to send a person who wants to logout
 const redirectUri = baseUrl + '/login.html'; // whitelisted url P14C sends the token or code to
-const adminRedirect = baseUrl +'/adminlogon.html'; //redirect uri for admin
+//const adminRedirect = baseUrl +'/adminlogon.html'; //redirect uri for admin
 
 const authUrl = 'https://auth.pingone.com';
 const apiUrl = 'https://api.pingone.com/v1';
