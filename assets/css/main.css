@@ -10,9 +10,9 @@
 	These are the colors that can be easily customized. To view these all at once go to the Elements page on your app. 
 */
 body {
-	--accentcolor: #76AAFA;
-	--mainColor: #7e57e0; 
-	--buttonHover: #B9a3f1; /* this changes the button color when you hover over it */
+	--accentcolor: #9ca6d4;
+	--mainColor: #042c94; 
+	--buttonHover: #9ca6d4; /* this changes the button color when you hover over it */
 	--buttonText: #ffffff;
 	--alternateButtonText: #000; 
 }
