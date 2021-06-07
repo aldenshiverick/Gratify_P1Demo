@@ -118,32 +118,32 @@ function updateUserValues(){
     console.log('Key : ' + key + ', Value : ' + payload[key])
   })
 
-  for(let i=0; i<Object.keys(payload).length; i++){
-    let obj = Object.keys(payload);
-    let obji = Object.keys(payload).keys(obj);
-    console.log("payload.i all " + obj);
-    console.log("payload.i " + obji);
-    //obji = JSON.parse(payload[obji]);
-    obji = obji.toString();
-    console.log("Substring " + payload.obji);
-    let jsoni = payload.obji;
-    Object.keys(obji).forEach(function(key) {
-      console.log('Key : ' + key + ', Value : ' + obji[key])
-    });
-    console.log("subset: " + payload.obji);
-    if(Object.keys(obj[i]).length > 0){
-      for(let j=0; j<Object.keys(obji).length; j++){
-        let objval = Object.keys(obji[j]);
-        console.log("made it into the second for loop");
-        console.log("objval: " + objval);
-        console.log("objval length: " + Object.keys(obji).length);
-        if(objval == undefined){
-          console.log("objval =" + Object.keys(objval));
-          delete payload.obji.objval;
-        }
-      }
-    }
-  }
+  // for(let i=0; i<Object.keys(payload).length; i++){
+  //   let obj = Object.keys(payload);
+  //   let obji = Object.keys(payload).keys(obj);
+  //   console.log("payload.i all " + obj);
+  //   console.log("payload.i " + obji);
+  //   //obji = JSON.parse(payload[obji]);
+  //   obji = obji.toString();
+  //   console.log("Substring " + payload.obji);
+  //   let jsoni = payload.obji;
+  //   Object.keys(obji).forEach(function(key) {
+  //     console.log('Key : ' + key + ', Value : ' + obji[key])
+  //   });
+  //   console.log("subset: " + payload.obji);
+  //   if(Object.keys(obj[i]).length > 0){
+  //     for(let j=0; j<Object.keys(obji).length; j++){
+  //       let objval = Object.keys(obji[j]);
+  //       console.log("made it into the second for loop");
+  //       console.log("objval: " + objval);
+  //       console.log("objval length: " + Object.keys(obji).length);
+  //       if(objval == undefined){
+  //         console.log("objval =" + Object.keys(objval));
+  //         delete payload.obji.objval;
+  //       }
+  //     }
+  //   }
+  //}
 
 //   for (var key in payload) {
 //     if (payload.hasOwnProperty(key)) {
